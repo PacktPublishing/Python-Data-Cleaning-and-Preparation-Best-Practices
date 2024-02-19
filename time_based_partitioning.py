@@ -15,7 +15,7 @@ df = pd.DataFrame(data)
 df["timestamp"] = pd.to_datetime(df["timestamp"])
 
 # Time-based partitioning
-base_path = "/Users/maria.zervou/projects/python_best_practices/data_sinks/data"
+base_path = "path_to_write_data"
 for timestamp, group in df.groupby(df["timestamp"].dt.date):
     # Create the directory if it doesn't exist
     os.makedirs(base_path, exist_ok=True)
