@@ -12,5 +12,5 @@ iris_data['sepal_length'] = 60
 iris_data.rename(columns={'petal_width': 'petal_w'}, inplace=True)
 
 #write dataframe
-iris_data.to_csv('great_expectations/iris_data_test.csv', index=False)
+iris_data.to_csv('../data/iris_data_test.csv', index=False)
 print("File written! :)")
