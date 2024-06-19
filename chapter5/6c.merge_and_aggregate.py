@@ -8,9 +8,9 @@ employee_data = pd.DataFrame({
     'salary': [50000, 60000, 60000, 55000, 65000, 70000, 70000]  # Added salary for aggregation
 })
 
-# Sample project assignment data with potential duplicate keys
+# Sample project assignment data with no duplicate keys
 project_data = pd.DataFrame({
-    'employee_id': [2, 3, 4, 5, 5, 6],
+    'employee_id': [2, 3, 4, 5, 7, 6],
     'project_name': ['ProjectA', 'ProjectB', 'ProjectC', 'ProjectD', 'ProjectD', 'ProjectE']
 })
 
