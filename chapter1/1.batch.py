@@ -43,6 +43,7 @@ def main():
 
     # Generate data
     data = generate_mock_data(num_records)
+    print("Original data:",data)
     
     # Process and load data in batches
     for batch in process_in_batches(data, batch_size):
