@@ -4,5 +4,5 @@ import pandas as pd
 # Load the 'iris' dataset from seaborn library
 iris_data = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/iris.csv')
 
-iris_data.to_csv('great_expectations/data/iris_data.csv', index=False)
+iris_data.to_csv('../data/iris_data.csv', index=False)
 print("File written! :)")
