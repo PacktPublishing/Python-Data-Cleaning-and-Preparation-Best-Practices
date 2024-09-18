@@ -12,3 +12,9 @@ def process_row(row):
 
 # Example usage
 read_sql()
+
+print(f"{'id':<5} {'name':<10} {'age':<3}")
+print("-" * 20)
+# Print each row
+for row in sql_table:
+print(f"{row['id']:<5} {row['name']:<10} {row['age']:<3}")
