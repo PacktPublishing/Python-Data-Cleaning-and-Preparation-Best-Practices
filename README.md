@@ -37,6 +37,15 @@ def process_in_batches(data, batch_size):
 **Following is what you need for this book:**
 Whether you're a data analyst, data engineer, data scientist, or a data professional responsible for data preparation and cleaning, this book is for you. Working knowledge of Python programming is needed to get the most out of this book.
 
+With the following software and hardware list you can run all code files present in the book (Chapter 1-13).
+
+### Software and Hardware List
+
+| Chapter  | Software required                   | OS required                        |
+| -------- | ------------------------------------| -----------------------------------|
+| 1-13        | Python3                    | Windows, macOS, or Linux |
+| 1-13        | Visual Studio Code (or your preferred IDE)            | Windows, macOS, or Linux |
+
 ### Related products
 * Data Ingestion with Python Cookbook [[Packt]](https://www.packtpub.com/en-in/product/data-ingestion-with-python-cookbook-9781837632602) [[Amazon]](https://www.amazon.com/dp/183763260X)
 
